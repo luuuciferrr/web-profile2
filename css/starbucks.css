@@ -3,8 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
 *{box-sizing: border-box;}
-body, div, p, ul, li, span, h1, img {margin: 0; padding: 0; font-family: 'Poppins', sans-serif; font: normal 15px/1.5em #000000;}
-body {-ms-user-select: none; 
+body, div, p, ul, li, span, h1, img {
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif; 
+    font: normal 15px/1.5em #000000;
+    -ms-user-select: none; 
     -moz-user-select: -moz-none; 
     -webkit-user-select: none; 
     user-select:none;
