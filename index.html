@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/animation.js"></script>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mina Yang's Portfolio Ver.2</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">米</a></h1>
+        <nav>
+            <ul class="navi">
+                <li><a href="#" data-n="1" class="on">HOME</a></li>
+                <li><a href="#" data-n="2">PROFILE</a></li>
+                <li><a href="#" data-n="3">PORTFOLIO</a></li>
+                <li><a href="#" data-n="4">CONTACT</a></li>
+            </ul><!--navi-->
+        </nav>
+    </header>
+
+    <section id="main_container"> <!--pin했을 때 가로 스크롤바 생겨서 넣음-->
+        <div id="main" data-n="1" class="contents con1">
+            <img src="images/moon.png" alt="moon" id="moon" width="357px" height="310px">
+            <img src="images/shadow.png" alt="shadow" id="shadow" width="2000px" height="500px">
+            <img src="images/namsan.png" alt="namsan" id="namsan" width="686px" height="693px">
+            <h2 id="text">MINA YANG</h2>
+            <img src="images/building_left.png" alt="building_l" id="building_l" width="536px" height="482px">
+            <img src="images/building_right.png" alt="building_r" id="building_r" width="474px" height="649px">
+            <img src="images/railway.png" alt="railway" id="railway" width="2000px" height="21px">
+            <img src="images/train.png" alt="train" id="train" width="184px" height="12px">
+            <img src="images/water2.png" alt="water" id="water" width="2000px" height="150px">
+        </div><!--main-->
+    </section><!--main_container-->
+
+    <section id="profile" data-n="2" class="contents con2">
+        <div class="card">
+            <div class="card_l">
+                <div class="cl_img">
+                    <img src="images/profilepic2.jpg" alt="profile photo of MNY2" width="370px" height="500px">
+                    <img src="images/profilepic3.jpg" alt="profile photo of MNY1" width="320px" height="500px">
+                </div><!--cl_img-->
+                <p>PROFILE</p>
+            </div><!--card_l-->
+            <div class="card_r">
+                <div class="cr_content">
+                    <h2>양미나 Mina Yang</h2>
+                    <div class="experience">
+                        <p><span class="e_date">2021</span><span class="e_important">모바일 UI/UX 웹디자인&amp;웹퍼블리셔 과정 수료 (신촌이젠아카데미)</span></p>
+                        <p><span class="e_date">2019</span>서울로 7017 외국인관광안내원</p>
+                        <p><span class="e_date">2017</span>캐릭터일러스트양성과정 수료</p>
+                    </div><!--experience-->
+                    <div class="programs">
+                        <p class="p_ion"><ion-icon name="flash-outline"></ion-icon></p>
+                        <p>Adobe Photoshop, Adobe Illustrator, Adobe After Effects, <span></span>Visual Studio Code, HTML5, CSS, Javascript, Jquery</p>
+                    </div><!--programs-->
+                    <div class="os">
+                        <p><ion-icon name="desktop-outline"></ion-icon></p>
+                        <p>windows, MacOS</p>
+                    </div><!--os-->
+                    <div class="available_lang">
+                        <ion-icon name="mic-outline"></ion-icon>
+                        <p>한국어, English, 中文, 廣東話, Bahasa Melayu... coming soon</p>
+                    </div><!--available_lang-->
+                    <p class="hashtag">
+                        <span>#해외유학경험</span><span>#일러스트</span><span>#섬세</span><span>#꼼꼼</span><span>#빠릿</span><span>#신중</span>         
+                    </p><!--hashtag-->
+                </div><!--cr_content-->
+            </div><!--card_r-->
+        </div><!--card-->
+        <p class="deco1"><ion-icon name="planet-outline"></ion-icon></p>
+        <p class="deco2"><ion-icon name="star-outline"></ion-icon></p>
+        <p class="deco3"><ion-icon name="star-outline"></ion-icon></p>
+        <p class="deco4"><ion-icon name="star-outline"></ion-icon></p>
+    </section><!--profile-->
+
+    <section id="portfolio" data-n="3" class="contents con3">
+        <div class="c_wrap">
+            <div class="portlink">
+                <div class="img_box">
+                    <img src="images/portfolio_ver1.JPG" alt="포트폴리오 구버전 사진">
+                </div><!--img_box-->
+                <div class="card1_con card_con">
+                    <h2>Portfolio Ver.1</h2>
+                    <p>JUL 2021 | PC Only</p>
+                    <p>#심플 #부드러움 #스크롤</p>
+                    <a href="https://luuuciferrr.github.io/web-profile/">EXPLORE</a>
+                </div><!--card1_con-->
+            </div><!--portlink-->
+            <div class="portlink">
+                <div class="img_box">
+                    <img src="images/port2-1.JPG" alt="포트폴리오 사이트1">
+                </div><!--img_box-->
+                <div class="card2_con card_con">
+                    <h2>국립중앙박물관</h2>
+                    <p>JUN 2021 | PC Only</p>
+                    <p>#리뉴얼 #뉴모피즘 #입체적</p>
+                    <a href="http://lucifer666.dothome.co.kr/">EXPLORE</a>
+                </div><!--card2_con-->
+            </div><!--portlink-->
+            <div class="portlink">
+                <div class="img_box">
+                    <img src="images/port3.JPG" alt="포트폴리오 사이트2">
+                </div><!--img_box-->
+                <div class="card3_con card_con">
+                    <h2>삼성전자서비스</h2>
+                    <p>JUL 2021 | Responsive</p>
+                    <p>#컬러 #깔끔 #일러스트</p>
+                    <a href="http://correpond7.dothome.co.kr/">EXPLORE</a>
+                </div><!--card3_con-->
+            </div><!--portlink-->
+            <div class="portlink">
+                <div class="img_box">
+                    <img src="images/port5.JPG" alt="포트폴리오 사이트3">
+                </div><!--img_box-->
+                <div class="card4_con card_con">
+                    <h2>Starbucks</h2>
+                    <p>OCT 2021 | Responsive</p>
+                    <p>#컬러 #이미지 #메인Only</p>
+                    <a href="starbucks.html">EXPLORE</a>
+                </div><!--card1_con-->
+            </div><!--portlink-->
+            <div class="portlink">
+                <div class="img_box">
+                    <img src="images/port4.JPG" alt="포트폴리오 사이트4">
+                </div><!--img_box-->
+                <div class="card5_con card_con">
+                    <h2>Coca Cola</h2>
+                    <p>OCT 2021 | Responsive</p>
+                    <p>#이미지 #슬라이더 #메인Only</p>
+                    <a href="cola.html">EXPLORE</a>
+                </div><!--card1_con-->
+            </div><!--portlink-->
+        </div><!--c_wrap-->
+       <!-- <p class="prt_text">Portfolio</p> -->
+        <div class="neon1">
+            <p class="prt_text2">Portfolio</p>
+            <div class="stick1"></div>
+        </div><!--neon1-->
+        <div class="neon2">
+            <p class="prt_text3">Design</p>
+            <div class="stick2"></div>
+        </div><!--neon2-->
+        <div class="neon3">
+            <div class="prt_text4_wrap">
+                <p class="prt_text4">PUBLISHING</p>
+            </div><!--prt_text4_wrap-->
+            <div class="stick3"></div>
+        </div><!--neon3-->-->
+        <div class="neon4">
+            <div class="prt_text5_wrap">
+                <p class="prt_text5">WEB</p>
+                <ion-icon name="globe-outline"></ion-icon>
+            </div><!--prt_text5_wrap-->
+            <div class="stick4"></div>
+        </div><!--neon4-->
+    </section><!--portfolio-->
+
+    <section id="contact" data-n="4" class="contents con4">
+        <div class="contact_neon">
+            <p>CONTACT ME</p>
+        </div><!--contact_neon-->
+        <div class="con_screen1 con_screen">
+            <p>
+                <span class="txt_green">▲ contact me</span><span class="txt_blue"> ▼ contact me</span><span class="txt_green">▲ contact me</span><span class="txt_blue">▼ contact me</span>
+            </p>
+        </div><!--con_screen1-->
+        <div class="address">
+            <p class="anim-typewriter">correpond7@naver.com</p>
+        </div><!--address-->
+        <div class="con_screen2 con_screen">
+            <p>
+                <span class="txt_blue"> ▼ contact me</span><span class="txt_green">▲ contact me</span><span class="txt_blue"> ▼ contact me</span><span class="txt_green">▲ contact me</span>
+            </p>
+        </div><!--con_screen2-->
+    </section><!--contact-->
+    
+    <section id="copyright">
+        <div>
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
+            <p>This website was created for a web design portfolio.</p>
+            <p>Home illustration by Mina Yang.</p>
+            <p>© 2021 Mina Yang. All Rights Reserved.</p>
+        </div>
+    </section><!--copyright-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: "#main",
+                start: "top top",
+                scrub : 1,
+                pin : true
+            }
+        })
+        gsap.to("#building_l", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            x : -300,
+            scale : 1.5
+        })
+        gsap.to("#building_r", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            x : 200,
+            scale : 1.5
+        })
+        gsap.to("#namsan", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            y : 50,
+            scale : 1.5
+        })
+        gsap.to("#shadow", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            y : -50
+        })
+        gsap.to("#text", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            x : -3800
+        })
+        gsap.to("#train", {
+            scrollTrigger : {
+                scrub : 1
+            },
+            x : -2500
+        })
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
